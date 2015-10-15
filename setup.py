@@ -7,7 +7,7 @@ if not os.getuid() == 0:
 
 # Set variables
 cwd = os.getcwd()
-nse = "/usr/local/share/nmap/scripts/"
+nse = "/usr/share/nmap/scripts/"
 
 # Write local shell script
 with open("scripts/pynse","w") as fh:
